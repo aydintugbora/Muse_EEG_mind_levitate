@@ -42,7 +42,7 @@ void setup() {
 
 void draw() {
   background(255);
-  relativeB = map(beta_avr-(alpha_avr+gamma_avr+theta_avr+delta_avr)/4, -2, 2, 0, 1);
+  relativeB = map((pow(beta_avr, 10)/(pow(theta_avr, 10) + pow(alpha_avr, 10) + pow(delta_avr, 10) + pow(gamma_avr, 10))), -2, 2, 0, 1);
   for (int i = 0; i < movers.length; i++) {
 
     PVector wind = new PVector(0, map(relativeB, 0, 1, 0.001, -1));
