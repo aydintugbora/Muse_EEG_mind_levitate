@@ -21,10 +21,6 @@ Try playing with the minimum and maximum mapping targets for relative beta !
 
 Hope this is helpful.
 
-Remember, 
-for closed eye interractions prefer alpha and theta.
-for open eye interractions prefer beta and gamma.
-
-And don't try to quantiofy your emotions !
+And don't try to quantify your emotions !
 
 Happy explorations !!
